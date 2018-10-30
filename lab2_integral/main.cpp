@@ -4,9 +4,9 @@
 using namespace std;
 
 int main() {
-    const double pi = 3.141592653;
+    const double pi = M_PI;
     int n = 10;
-    double b = pi, a = 0, h, y = 0, s, sum = 0;
+    double b = pi, a, h, y, s, sum = 0;
     h = b / n;
     for (a = 0; a < b; a += h) {
         y = a * sin(a);
